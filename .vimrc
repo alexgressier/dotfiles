@@ -22,6 +22,7 @@ autocmd BufEnter * silent! lcd %:p:h
 " map
 let mapleader = ','
 nnoremap <F5> :make<CR>
+inoremap { {<CR>}<Esc>O<TAB>
 
 
 " vim-plug
